@@ -229,7 +229,7 @@ Vue.component('my-component', {
 
 ### 类型检查
 
-`type` 可以是下列原生构造函数中的一个：
+`type` 可以是下列原生函数中的一个：
 
 - `String`
 - `Number`
