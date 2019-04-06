@@ -280,7 +280,7 @@ Vue.component('anchored-heading', {
 
 #### VNodes 必须唯一
 
-组件树中的所有 VNodes 必须是唯一的。这意味着，下面的 render function 是无效的：
+组件树中的所有 VNodes 必须是唯一的。这意味着，下面的 render function 是有效的：
 
 ``` js
 render: function (createElement) {
